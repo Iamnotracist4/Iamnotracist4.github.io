@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+    color: white;
+}
+.title {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid blue;
+    background-color: blue;
+    color: white;
+}
+img {
+    width: 30vw;
+    height:40vh;
+}
+
+h2 {
+    border: 3px solid green;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0;
+}
+
+.shop > h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.grid-item {
+    width: fit-content;
+    height: fit-content;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.about {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
